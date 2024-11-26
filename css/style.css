@@ -1,3 +1,161 @@
-h2 {
-    color: green;
+header {
+    /* border: 2px solid black; */
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.myflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+li a {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.s1 {
+    background-image: url("../images/banner.jpg");
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.infodiv {
+    /* border: 2px solid black; */
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+}
+
+.infodiv h1 {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.infodiv h5 {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.s2 {
+    margin-bottom: 100px;
+}
+
+.myflex3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infowrapper {
+    width: 235px;
+    /* border: 2px solid black; */
+}
+
+.infowrapper h4 {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.infowrapper h3 {
+    color: #010101;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.infowrapper p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardwrapper {
+    /* border: 2px solid red; */
+    width: 924px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    row-gap: 56px;
+}
+
+.card {
+    width: 286px;
+    /* border: 1px solid red; */
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.card h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
